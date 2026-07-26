@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/hrvl-dashboard//_next/:path+",
+        "destination": "/hrvl-dashboard/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
